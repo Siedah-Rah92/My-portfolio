@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(112, 211, 206);
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
+
+
+}
+
+.container {
+    padding: 10px;
+    text-align: center;
+
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    background-color: #c0f8a0bf;
+ 
+}
+
+footer {
+    background-color: lightseagreen;
+
+}
+
+.card-title {
+    display: block;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.fit-picture {
+    width: 150px;
+    align-items: center;
+}
+
+/* .card-body {
+  
+} */
