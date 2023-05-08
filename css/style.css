@@ -1,9 +1,8 @@
 body {
-    background-color: rgb(112, 211, 206);
+    background-color: #91c9d6;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-family: cursive;
-
 
 }
 
@@ -14,30 +13,47 @@ body {
 }
 
 .card {
-    display: flex;
-    align-items: center;
     padding: 25px;
-    background-color: #c0f8a0bf;
- 
+    background-color: #abe2c7;
+    flex-direction: row;
 }
 
 footer {
-    background-color: lightseagreen;
+    background-color: #457f8d;
 
 }
 
 .card-title {
     display: block;
     align-items: center;
-    padding: 25px;
+    padding: 50px;
 
 }
 
 .fit-picture {
-    width: 150px;
-    align-items: center;
+    width: 100px;
+    display: flex;
+    margin: auto;
 }
 
-/* .card-body {
-  
-} */
+.card-body {
+    padding: 25px;
+}
+
+.navbar-brand {
+    color: whitesmoke;
+}
+
+a:link, a:visited {
+    color: whitesmoke;  
+    text-decoration: none;
+}
+a:hover {
+    color: lightseagreen;
+    text-decoration: none;
+}
+a:active {
+    color: lightgreen;
+    text-decoration: none;
+}
+
